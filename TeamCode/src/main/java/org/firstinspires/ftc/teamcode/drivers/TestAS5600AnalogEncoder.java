@@ -16,7 +16,7 @@ public class TestAS5600AnalogEncoder extends OpMode {
         telemetry = new MultipleTelemetry(telemetry, FtcDashboard.getInstance().getTelemetry());
         encoder = new AnalogEncoder("analog", hardwareMap);
         encoder.setInverted(true);
-        encoder.setPositionOffset(16.69);
+        encoder.setPositionOffset(0.0);
     }
 
     @Override
